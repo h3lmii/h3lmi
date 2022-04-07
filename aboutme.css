@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(19, 16, 16);
+    height: 2500px;
+    overflow-x: hidden;
+}
+.profil{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:rgb(176, 179, 6) 10px solid  ;
+   margin-top: 55px ;
+   margin-left: 90px;
+    position: absolute;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.profil:hover{
+    transform: rotateY(180deg);
+}
+
+
+.contact span:hover{
+    color: rgb(132, 160, 185);
+}
+
+.loul{
+    background-color: rgb(53, 53, 53);
+   width: 25%;
+   height: 850px;
+ position: fixed;
+}
+
+.loul h1{
+    color: whitesmoke;
+    padding-top: 250px;
+    text-align: center;
+}
+.loul h2{
+    color: whitesmoke;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.loul ul{
+    margin-left: 10px;
+    list-style: none;
+}
+
+.loul ul li{
+background-color: rgb(100, 80, 54);
+border-radius: 5%;
+margin-top: 25px;
+height:40px ;
+width: 300px;
+margin-left: 30px;
+text-align: center;
+padding-top: 10px;
+cursor: pointer;
+}
+
+.loul ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+
+    }
+
+    
+.ymin h2{
+    color: white;
+    font-size: 35px;
+    padding-left: 700px; 
+padding-top:250px ;
+
+     }
+
+.ymin h2 span{
+        color: rgb(171, 190, 0);
+         }
+
+ .ymin p{
+     color: white;
+     font-size: 20px;   
+     padding-left: 700px; 
+     padding-top:15px ;
+     margin-bottom: 40px;
+     margin-right: 40px;
+             }
+
+.jnab{
+    position: absolute;
+    height: 440px;
+    margin-left: 390px;
+    margin-top: 120px;
+    width: 75%;
+}
+.jnab h2{
+    padding-left:80px ;
+    color: white;
+ }
+.jnab span{
+   color: chartreuse;
+}
+.carres1,.carres2{
+    height: 450px;
+    width: 710px;
+    position: absolute;
+
+margin-left: 500px;
+margin-top: -350px;
+
+display:inline-flex;
+
+}
+
+
+.carres1 div,.carres2 div{
+    background-color: rgb(34, 39, 36);
+    height: 150px;
+    width: 200px;
+    margin-right: 100px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+
+}
+
+.hachet,.hachet1{
+position: absolute;
+margin-top: -270px;
+margin-left: 530px;
+height: 70px;
+width: 400px;
+}
+
+.hachet2,.hachet3{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 920px;
+    height: 70px;
+    width: 70px;
+    }
+.jnab h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+
+.jnab h4{
+    color: white;
+    font-size: 25px;
+    visibility: hidden;
+}
+.cv{
+    margin-left:  70px;
+    background-color: rgb(177, 168, 168);
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.cv a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.contact{
+    height: 400px;
+    width: 1000px;
+    margin-top: 800px;
+    margin-left: 450px;
+    position: absolute;
+}
+.contact h2{
+    color: rgb(216, 231, 0);
+    text-align: center;
+    font-size: 50px;
+}
+.contact i span,.contact i{
+    color: white;
+    font-size: 20px;    
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.jnab button:hover{
+    background-color: darkolivegreen;
+}
+
+.in{
+    position: absolute;
+    margin-left:800px ;
+    margin-top: 870px;
+    height: 400px;
+    width: 650px;
+
+}
+
+.in input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 500px;
+    background-color: bisque;
+    font-size: 15px;
+}
+
+.in button{
+   background-color: rgb(194, 103, 0);
+   margin-top: 10px;
+   height: 40px;
+   width:150px ;
+   text-align: center;
+   color: white;
+   cursor: pointer;
+   border-radius: 14px;
+}
+
+.in button:hover{
+    background-color:darkgray;
+}
+
+.percent{
+    position: absolute;
+    left: 50%;
+    top:1800px;
+
+}
+
+.progress{
+    background-color: white;
+    width: 430px;
+    height: 30px;
+    margin: 10px;
+    position: relative;
+}
+
+.percent h3{
+   color: white;
+}
+.progress span{
+    background-color: rgb(226, 185, 0);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 1.5s linear;
+ }
+ 
+ .button{
+     color: white;
+     background-color: cornflowerblue;
+    position: fixed;
+     cursor: pointer;
+     top: 650px;
+     right:20px;
+     width: 40px;
+     height: 40px;
+     display: none;
+ }
+
+ .button:hover{
+   background-color:rgb(12, 59, 146) ;
+}
+
+*::selection{
+   color:orange ;
+ }
+
+.percent div{
+    border-radius: 5px;
+}
+ 
+ .lekher{
+    background-color:orange ;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: 1700px;
+    margin-left:800px ;
+  }
